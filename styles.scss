@@ -1,0 +1,147 @@
+
+$color: black;
+h1
+{
+text-align: left;
+font-size: 25px;
+font-family:calibri;
+background-color: $color;
+font-style: italic;
+
+color: white;
+}
+p
+{
+  font-style:italic;
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  background-color: $color;
+  color:white;
+}
+.header-img {
+  width: 100%;
+  height: 300px;
+  background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/classic-movies-kids-1584724104.jpg?crop=1.00xw:1.00xh;0,0&resize=980:*');
+  background-size: cover;
+}
+
+.menu {
+  float: right;
+}
+.menu ul {
+  list-style: none;
+  margin: 8px;
+  padding: 0
+}
+.menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'candara';
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+.container {
+  text-align: left;
+  position: absolute;
+  color: white;
+}
+
+
+.left {
+  position:absolute;
+  top: 8px;
+}
+
+.Bigger {
+font:18px "Comic Sans MS",san-serif;
+font-weight: bold;
+}
+
+.inner {
+font:26px "calibri";
+font-style: italic;
+
+}
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 150%;
+  height: 170px;
+  background:#152F4F;
+
+
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: black;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  }
+  .location{
+    i{font-size: 18px;}
+  }/* Footer height */
+}
